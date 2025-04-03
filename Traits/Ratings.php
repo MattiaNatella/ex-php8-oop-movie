@@ -11,4 +11,8 @@ trait Ratings
             echo "Inserire un voto compreso fa 1 e 5 inclusi!";
         }
     }
+    public function getRating()
+    {
+        echo $this->rating;
+    }
 }

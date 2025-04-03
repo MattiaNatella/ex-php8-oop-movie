@@ -68,6 +68,6 @@ foreach ($ioSonoLeggenda->genres as $genre) {
 
 $inception->setRating(5);
 
-var_dump($inception);
+$inception->getRating();
 
 ?>

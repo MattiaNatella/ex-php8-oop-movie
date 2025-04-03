@@ -59,8 +59,6 @@ $inception = new Movie(
 );
 
 
-
-
 echo '<br>';
 foreach ($ioSonoLeggenda->genres as $genre) {
     echo $genre->getDescription() . '<br><br><br>'; // Itera sugli oggetti Genre e chiama getDescription()

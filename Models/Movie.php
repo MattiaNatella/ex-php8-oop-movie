@@ -36,10 +36,11 @@ class Movie
 
     public function getGenreName()
     {
+        $getgenre = [];
         foreach ($this->genres as $genre) {
-            echo $genre->getGenre(); // Usa il metodo corretto getGenre()
+            $getgenre[] = trim($genre->getGenre()); // Rimuove eventuali spazi extra
         }
-
+        echo implode(", ", $getgenre); // Virgola seguita da uno spazio
     }
 }
 ?>

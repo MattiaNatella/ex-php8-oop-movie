@@ -1,6 +1,6 @@
 <?php
 
-class Genre
+class Genre extends Movie
 {
 
     protected $name;
@@ -16,7 +16,6 @@ class Genre
     {
         return "$this->name ";
     }
-
     public function getDescription()
     {
         echo $this->description; // Restituisce direttamente la descrizione

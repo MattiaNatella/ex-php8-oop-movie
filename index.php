@@ -6,8 +6,9 @@ require_once 'Traits/Ratings.php';
 
 
 //importo le classi
-require_once 'Models/Genre.php';
 require_once 'Models/Movie.php';
+require_once 'Models/Genre.php';
+
 
 
 //importo i dati
@@ -15,7 +16,9 @@ require_once './Data/db.php';
 
 $movies[2]->setRating(5);
 
+// $genere = new Genre('Hilary', 'Clinton');
 
+// var_dump($genere);
 ?>
 
 

@@ -1,0 +1,9 @@
+img {
+    width: 100%;
+    /* L'immagine occupa tutta la larghezza del contenitore */
+    height: 450px;
+    /* Altezza fissa per uniformare le dimensioni */
+    object-fit: fill;
+    /* Ritaglia l'immagine per adattarla al contenitore */
+
+}

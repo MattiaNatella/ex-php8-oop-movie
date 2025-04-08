@@ -3,10 +3,10 @@
 class Genre
 {
 
-    public $name;
-    public $description;
+    protected $name;
+    protected $description;
 
-    function __construct($_name, $_description)
+    public function __construct($_name, $_description)
     {
         $this->name = $_name;
         $this->description = $_description;
@@ -14,7 +14,7 @@ class Genre
 
     public function getGenre()
     {
-        return $this->name;
+        return "$this->name ";
     }
 
     public function getDescription()
